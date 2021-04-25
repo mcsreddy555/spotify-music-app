@@ -1,6 +1,245 @@
 -------get all artists----------
 https:api.spotify.com/v1/artists/${searchQuery}&type=artist
 
+search data
+[
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/2ae6PxICSOZHvjqiCcgon8"
+    },
+    "followers": {
+      "href": null,
+      "total": 1399277
+    },
+    "genres": [
+      "filmi"
+    ],
+    "href": "https://api.spotify.com/v1/artists/2ae6PxICSOZHvjqiCcgon8",
+    "id": "2ae6PxICSOZHvjqiCcgon8",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/fa3317700dcfefb1cb13014a6d17d0e8476a0ae6",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/f355977a58ffec530b291dbeb1e9065534c44c6f",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/9b78fdb49ccf27e580814bb0ae442b6301d1d191",
+        "width": 160
+      }
+    ],
+    "name": "S. P. Balasubrahmanyam",
+    "popularity": 70,
+    "type": "artist",
+    "uri": "spotify:artist:2ae6PxICSOZHvjqiCcgon8"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/4M2Cy9xnxD04GTLIKFbsd1"
+    },
+    "followers": {
+      "href": null,
+      "total": 98
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/4M2Cy9xnxD04GTLIKFbsd1",
+    "id": "4M2Cy9xnxD04GTLIKFbsd1",
+    "images": [],
+    "name": "Balasubramanyam",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:4M2Cy9xnxD04GTLIKFbsd1"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/7FN1fNMbloOPm1JIPs1O0C"
+    },
+    "followers": {
+      "href": null,
+      "total": 224
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/7FN1fNMbloOPm1JIPs1O0C",
+    "id": "7FN1fNMbloOPm1JIPs1O0C",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273cb248b11696803a1abc3f559",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02cb248b11696803a1abc3f559",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851cb248b11696803a1abc3f559",
+        "width": 64
+      }
+    ],
+    "name": "Sethalapathi Balasubramanyam",
+    "popularity": 1,
+    "type": "artist",
+    "uri": "spotify:artist:7FN1fNMbloOPm1JIPs1O0C"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/7lueO9vvl8TB8nukwA6UUp"
+    },
+    "followers": {
+      "href": null,
+      "total": 32
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/7lueO9vvl8TB8nukwA6UUp",
+    "id": "7lueO9vvl8TB8nukwA6UUp",
+    "images": [],
+    "name": "S.P. Balasubramanyam",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:7lueO9vvl8TB8nukwA6UUp"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/7tkNz2qLOihI62fK5lOtBh"
+    },
+    "followers": {
+      "href": null,
+      "total": 6
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/7tkNz2qLOihI62fK5lOtBh",
+    "id": "7tkNz2qLOihI62fK5lOtBh",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273dbe9aeea8c2aacd438c3100a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02dbe9aeea8c2aacd438c3100a",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851dbe9aeea8c2aacd438c3100a",
+        "width": 64
+      }
+    ],
+    "name": "SP Balasubramanyam",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:7tkNz2qLOihI62fK5lOtBh"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/3Cs9V8xxtJNMMpb7R35VsC"
+    },
+    "followers": {
+      "href": null,
+      "total": 2
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/3Cs9V8xxtJNMMpb7R35VsC",
+    "id": "3Cs9V8xxtJNMMpb7R35VsC",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273161e11ee8f0a277e582517ed",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02161e11ee8f0a277e582517ed",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851161e11ee8f0a277e582517ed",
+        "width": 64
+      }
+    ],
+    "name": "Madhoor P. Balasubramanyam",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:3Cs9V8xxtJNMMpb7R35VsC"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/4XOCPKD4gscOx3NpgEuy66"
+    },
+    "followers": {
+      "href": null,
+      "total": 0
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/4XOCPKD4gscOx3NpgEuy66",
+    "id": "4XOCPKD4gscOx3NpgEuy66",
+    "images": [],
+    "name": "P. R. Bālasubramanyam",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:4XOCPKD4gscOx3NpgEuy66"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/1cbhBbrrITWLmk7HZpNJqe"
+    },
+    "followers": {
+      "href": null,
+      "total": 165
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/1cbhBbrrITWLmk7HZpNJqe",
+    "id": "1cbhBbrrITWLmk7HZpNJqe",
+    "images": [],
+    "name": "S.P. Balasubramanyam, Sunitha Upadrashta",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:1cbhBbrrITWLmk7HZpNJqe"
+  },
+  {
+    "external_urls": {
+      "spotify": "https://open.spotify.com/artist/2i2xKRkcTv7tJWuUwhDtji"
+    },
+    "followers": {
+      "href": null,
+      "total": 119
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/2i2xKRkcTv7tJWuUwhDtji",
+    "id": "2i2xKRkcTv7tJWuUwhDtji",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273fe24f3209c7417f93f6681d1",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02fe24f3209c7417f93f6681d1",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851fe24f3209c7417f93f6681d1",
+        "width": 64
+      }
+    ],
+    "name": "Singers: Sp Balasubramanyam, Hemachandra, Jesudas Suresh, Kalyani , Lyrics: Vijay K Settipalli and Music: Mahiraamsh",
+    "popularity": 0,
+    "type": "artist",
+    "uri": "spotify:artist:2i2xKRkcTv7tJWuUwhDtji"
+  }
+]
+
 
 ----------get Artist-----------
 https:api.spotify.com/v1/artists/${artistId}
@@ -17,5 +256,45 @@ https:api.spotify.com/v1/albums/${albumId}
 ----------get tracks-----------
 https:api.spotify.com/v1/albums/${albumId}/tracks
 
-
+{
+    "artists": {
+        "href": "https://api.spotify.com/v1/search?query=tania+bowra&offset=0&limit=20&type=artist",
+        "items": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/08td7MxkoHQkXnWAYD8d6Q"
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/08td7MxkoHQkXnWAYD8d6Q",
+                "id": "08td7MxkoHQkXnWAYD8d6Q",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/f2798ddab0c7b76dc2d270b65c4f67ddef7f6718",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/b414091165ea0f4172089c2fc67bb35aa37cfc55",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/8522fc78be4bf4e83fea8e67bb742e7d3dfe21b4",
+                        "width": 64
+                    }
+                ],
+                "name": "Tania Bowra",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:08td7MxkoHQkXnWAYD8d6Q"
+            }
+        ],
+        "limit": 20,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 1
+    }
+}
 

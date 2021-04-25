@@ -1,0 +1,44 @@
+<section class="p-3">
+    <!-- {{artistId}}
+    {{artist | json}}
+    {{albums | json}} -->
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-primary text-white" >
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img [src]="artist.images[0].url" class="img-fluid img-thumbnail" alt="img">
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="dispaly-3 text-white ">
+                                        {{artist.name}}</h3>
+                                  <p class="h3">Followers :{{artist.followers.total | number}}</p>
+                                  <p class="h3">Generes :
+                                    <!-- <span class="badge badge-success mr-2" *ngFor='let genre of artist.genres'>{{genre}}</span> -->
+                                  </p>
+                                  <button class="btn btn-danger ">Back</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 " *ngFor="let album of albums">
+                                <div class="card mt-2">
+                                    <div class="card-body bg-secondary text-center text-white">
+                                        <img [src]="album.images[0].url" alt="img" class="img-fluid img-thumbnail">
+                                        <p class="mt-3">{{album.name}}</p>
+                                        <a class="btn btn-outline-success" routerLink='/album/{{album.id}}'>View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <pre>{{artist | json}}</pre> -->
