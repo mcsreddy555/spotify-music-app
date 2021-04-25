@@ -1,0 +1,21 @@
+-------get all artists----------
+https:api.spotify.com/v1/artists/${searchQuery}&type=artist
+
+
+----------get Artist-----------
+https:api.spotify.com/v1/artists/${artistId}
+
+
+----------get Albums-----------
+https:api.spotify.com/v1/artists/${artistId}/Albums
+
+
+----------get an Albums-----------
+https:api.spotify.com/v1/albums/${albumId}
+
+
+----------get tracks-----------
+https:api.spotify.com/v1/albums/${albumId}/tracks
+
+
+
